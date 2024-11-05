@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "myfont";
+    src: url(../font/roguehero.ttf);
+}
+
+.w95 {
+    width: 95%;
+    margin: auto;
+}
+
+.w80 {
+    width: 80%;
+    margin: auto;
+}
+
+h3 {
+    font-family: 'myfont';
+    color: rgba(155,6,26,255);
+    font-size: 1.9rem;
+}
+
+/* HEADER */
+
+.ipad {
+    display: none;
+}
+
+header {
+    background-image: url(../img/deadpoolFond.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#absolute {
+    background-color: black;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: auto;
+}
+
+li {
+  width: 20%;  
+  margin: 10px 0px;
+  text-align: center;
+}
+
+header img {
+    width: 30%;
+}
+
+a {
+    font-family: "myfont";
+    text-decoration: none;
+    color: rgba(155,6,26,255);
+    font-size: 1.2rem;
+}
+
+h2 {
+    background-color: rgba(155,6,26,255);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px 0px;
+}
+
+h2 div {
+    width: 25%;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+h2 img {
+    width: 15%;
+}
+
+.h2 {
+    font-family: 'myfont';
+}
+
+/* PREMIERE SECTION  */
+
+#imgYtb {
+    width: 100%;
+    position: relative;
+}
+
+#imgBig {
+    width: 100%;
+}
+
+#logoYtb {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section:nth-of-type(1) article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 50px auto;
+}
+
+article:nth-of-type(1) div {
+    width: 40%;
+}
+
+article:nth-of-type(1) h3 {
+    font-family: 'myfont';
+    color: rgba(155,6,26,255);
+    font-size: 1.9rem;
+    padding-bottom: 40px;
+}
+
+article:nth-of-type(1) p {
+    font-family: sans-serif;
+    font-size: 0.8rem;
+}
+
+article:nth-of-type(1) img {
+    width: 100%;
+}
+
+/* DEUXIEME SECTION */
+
+section:nth-of-type(2) {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+section:nth-of-type(2) article {
+    width: 24%;
+}
+
+#w100 {
+    width: 250%;
+}
+
+section:nth-of-type(2) h3 {
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+section:nth-of-type(2) img {
+    width: 100%;
+}
+
+section:nth-of-type(2) p {
+    padding-top: 30px;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+}
+
+/* TROISIEME SECTION */
+
+/* PREMIERE FIGURE */
+
+figure:nth-of-type(1) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+}
+
+section:nth-of-type(3) h3 {
+    text-align: center;
+}
+
+section:nth-of-type(3) figure:nth-of-type(1) div {
+    width: 30%;
+}
+
+section:nth-of-type(3) img {
+    width: 100%;
+}
+
+/* DEUXIEME FIGURE */
+
+figure:nth-of-type(2) {
+    padding: 1% 10%;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.wDiv {
+    width: 15%;
+}
+
+figure:nth-of-type(2) img {
+    margin-bottom: 10px;
+}
+
+button {
+    font-family: 'myfont';
+    color: rgba(155,6,26,255);
+    font-size: 1.9rem;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 300px;
+    padding: 8px 40px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    margin-top: 50px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.w10 {
+    width: 5%;
+}
+
+#w80 {
+    width: 35%;
+}
+
+footer img {
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+    
+    header {
+        background-image: url(../img/deadpoolFond.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .dekstop {
+        display: none;
+    }
+    .ipad {
+        display: block;
+        width: 40%;
+    }
+
+    /* PREMIERE SECTION */
+
+    #imgYtb {
+        display: none;
+    }
+
+    article:nth-of-type(1) p {
+        text-align: right;
+        width: 100%;
+    }
+
+    article:nth-of-type(1) h3 {
+        text-align: right;
+        padding-bottom: 10px;
+    }
+
+    section:nth-of-type(1) article {
+        margin: 10px auto;
+    }
+
+    /* DEUXIEME SECTION  */
+
+    section:nth-of-type(2) {
+        flex-wrap: wrap;
+    }
+
+    section:nth-of-type(2) article {
+        width: 45%;
+    }
+
+    section:nth-of-type(2) p {
+        display: none;
+    }
+
+    #w100 {
+        padding-top: 30px;
+    }
+
+    section:nth-of-type(2) h3 {
+        text-align: center;
+    }
+
+    section:nth-of-type(2)>article {
+        order: 1;
+    }
+
+    section:nth-of-type(2) article:nth-of-type(2) {
+        order: 3;
+    }
+
+    section:nth-of-type(2) article:nth-of-type(3) {
+        order: 2;
+    }
+
+    section:nth-of-type(2) article:last-of-type {
+        order: 4;
+    }
+
+    section:nth-of-type(3) figure:nth-of-type(1) {
+        flex-wrap: wrap;
+        margin-left: 20%;
+    }
+
+    section:nth-of-type(3) figure:nth-of-type(1) div {
+        width: 80%;
+    }
+
+    #order1 {
+        order: 1;
+    }
+
+    #order2 {
+        order: 2;
+    }
+
+    #order3 {
+        order: 3;
+    }
+
+    .figureNone {
+        display: none;
+    }
+
+    figure:nth-of-type(2) {
+        display: none;
+    }
+
+    footer .w10 {
+        width: 10%;
+    }
+    footer #w80 {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    header {
+        background-image: url(../img/deadpoolFond.jpg);
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .dekstop {
+        display: none;
+    }
+    .ipad {
+        display: block;
+        width: 40%;
+    }
+
+    .logoNone {
+        display: none;
+    }
+
+    #articleNone {
+        display: none;
+    }
+
+    #logoYtb {
+        width: 20%;
+    }
+    #imgYtb {
+        margin: 10% 0%;
+    }
+    h3 {
+        padding-top: 5%;
+    }
+    
+   .logoIphone {
+    width: 40%;
+   }
+   .logoIphone img {
+    width: 25%;
+   }
+
+   h2 {
+    display: flex;
+    justify-content: medium;
+    margin: 0 auto;
+   }
+
+   h2 .w40 {
+    width: 40%;
+   }
+
+    .h2 {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    #synopsis {
+        text-align: left;
+    }
+    section:nth-of-type(2) {
+        flex-wrap: wrap;
+        margin-left: 17%;
+    }
+    section:nth-of-type(2) p {
+        display: none;
+    }
+    section:nth-of-type(2) article {
+        width: 80%;
+    }
+
+    section:nth-of-type(3) figure:nth-of-type(1) {
+        flex-wrap: wrap;
+    }
+
+    #order1 {
+        order: 2;
+        width: 40%;
+    }
+
+    #order3 {
+        order: 1;
+        width: 80%;
+    }
+
+    #order2 {
+        order: 1;
+        width: 40%;
+    }
+    section:nth-of-type(3) img {
+        width: 100%;
+    }
+
+    .figureNone {
+        display: none;
+    }
+
+    figure:nth-of-type(2) {
+        display: none;
+    }
+
+    footer .w10 {
+        display: none;
+    }
+
+    footer #w80 {
+        width: 80%;
+    }
+}
